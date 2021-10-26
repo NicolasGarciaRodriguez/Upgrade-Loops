@@ -13,23 +13,22 @@
 
 // const alumnos = [
 
-//		{name: 'Pepe Viruela', T1: false, T2: false, T3: true}, 
-// 		{name: 'Lucia Aranda', T1: true, T2: false, T3: true},
-// 		{name: 'Juan Miranda', T1: false, T2: true, T3: true},
-// 		{name: 'Alfredo Blanco', T1: false, T2: false, T3: false},
-// 		{name: 'Raquel Benito', T1: true, T2: true, T3: true}
+//     { name: 'Pepe Viruela', T1: false, T2: false, T3: true },
+//     { name: 'Lucia Aranda', T1: true, T2: false, T3: true },
+//     { name: 'Juan Miranda', T1: false, T2: true, T3: true },
+//     { name: 'Alfredo Blanco', T1: false, T2: false, T3: false },
+//     { name: 'Raquel Benito', T1: true, T2: true, T3: true }
 // ]
 
 
-// for (alumno of alumnos) {
 
-// 	for (prop of alumno){
-
-// 		console.log(prop.includes(true)) 
-
-// 	}
-
+// for (const alumno of alumnos) {
+//     if (alumno.T1 === true && alumno.T2 === true || alumno.T1 === true && alumno.T3 === true || alumno.T2 === true && alumno.T3 === true) {
+//         Object.defineProperty(alumno, "isApproved", { value: true })
+//     }
 // }
+
+// console.log(alumnos)
 
 
 // 3. Probando for of
